@@ -118,3 +118,27 @@ footer h2 {
 .row {
   margin-top: 40px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 76px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h2,
+  p {
+    text-align: center;
+  }
+
+  .app-link {
+    display: block;
+    text-align: center;
+  }
+
+  .app-image {
+    display: none;
+  }
+}
