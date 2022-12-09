@@ -33,6 +33,7 @@ p {
 
 footer {
   text-align: center;
+  margin-top: 100px;
 }
 
 footer h2 {
@@ -43,8 +44,8 @@ footer h2 {
 .hero-section {
   text-align: center;
   margin: auto 0;
-  padding-top: 300px;
-  padding-bottom: 200px;
+  padding-top: 250px;
+  padding-bottom: 250px;
   height: 100%;
   background: #eff3f9;
 }
@@ -71,6 +72,10 @@ footer h2 {
 
 .about-link {
   color: var(--primary-color);
+}
+
+.app-background {
+  
 }
 
 .about-text {
@@ -122,16 +127,11 @@ footer h2 {
   margin-top: 40px;
 }
 
-.footer {
+.footer-container {
   background: #eff3f9;
-  margin: 100px 50px 50px;
+  margin: 50px;
   border-radius: 10px;
-}
-
-.footer h2 {
-  position: relative;
-  left: -100px;
-  top: 10px;
+  height: 100px;
 }
 
 .footer-link {
@@ -141,8 +141,14 @@ footer h2 {
   text-decoration: none;
   padding: 20px 15px;
   position: relative;
-  left: 200px;
-  top: -35px;
+  right: -200px;
+  top: 10px;
+}
+
+footer h3 {
+ position: relative;
+ top: 35px;
+ left: -85px;
 }
 
 footer i {
@@ -150,7 +156,7 @@ footer i {
   background: #eff3f9;
   border-radius: 50%;
   padding: 5px;
-  margin: 20px 10px 100px;
+  margin: 0px 10px 100px;
 }
 
 @media (max-width: 576px) {
