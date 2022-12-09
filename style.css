@@ -74,17 +74,8 @@ footer h2 {
   color: var(--primary-color);
 }
 
-.app-background {
-  
-}
-
-.about-text {
-  display: flex;
-  margin: 30px 0;
-}
-
 .about-text p {
-  margin: 10px;
+  margin: 50px;
   text-align: center;
   line-height: 1.5;
   font-size: 18px;
@@ -146,9 +137,9 @@ footer h2 {
 }
 
 footer h3 {
- position: relative;
- top: 35px;
- left: -85px;
+  position: relative;
+  top: 35px;
+  left: -85px;
 }
 
 footer i {
